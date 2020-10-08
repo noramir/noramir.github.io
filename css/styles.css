@@ -10094,20 +10094,25 @@ hr.light {
     color: #f4623a;
   }
 }
-
-header.masthead {
+.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-image: url("assets/img/Oreti.svg");
-/*  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+  /* background-image: url("../assets/img/Taieri.svg");
+  background-color: rgb(99, 1, 179); */
+  /* background-blend-mode: lighten; */
+  background: linear-gradient(rgba(207, 155, 255, 0.4) 0%, rgba(0,0,0,0.6)50%, rgb(0, 0, 0) 100%), url("../assets/img/Taieri.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 header.masthead h1 {
-  font-size: 2.25rem;
-  color: white;
+  /* font-size: 2.25rem; */
+  /* background: -webkit-linear-gradient(90deg, rgba(72,255,115,1) 0%, rgba(66,233,105,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
+  color: #48ff73;
+  /* text-shadow: 2px 2px 5px #000000; */
 }
 @media (min-width: 992px) {
   header.masthead {
